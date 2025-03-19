@@ -66,6 +66,25 @@
     stroke-dasharray: 125.6;
     transform: rotate(-90deg);
   }
-
+  .contact{
+    animation: lod 2s linear;
+  }
+  @keyframes lod {
+    0%{
+      opacity: 0;
+      transform: translateY(-40px);
+    }
+    
+  }
+  .pricing{
+    animation: lod 2s linear;
+  }
+  @keyframes lod {
+    0%{
+      opacity: 0;
+      transform: translate(-40px);
+    }
+    
+  }
   
   

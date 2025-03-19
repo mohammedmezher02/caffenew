@@ -1,4 +1,5 @@
 import { img1, img2, img3, img4, img5, imgHero } from "../assets";
+import "./styles.css"
 
 function Pricing1() {
    const Data = [
@@ -46,7 +47,7 @@ function Pricing1() {
           },
       ];
   return (
-    <div className="bg-[#252525]" >
+    <div className="pricing bg-[#252525]" >
     <div className="flex flex-col items-center text-center font-bold capitalize text-3xl mb-10 text-white ">
      <h1> Our Menue</h1>
      <div className="bg-orange-500 w-[100px] h-[2px] mt-3"></div>

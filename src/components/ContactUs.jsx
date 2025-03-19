@@ -1,8 +1,8 @@
-
+import "./styles.css"
 
 const ContactUs = () => {
   return (
-    <div className="bg-[#3F181C] py-14 " >
+    <div className="contact bg-[#3F181C] py-14 " >
        <div className="flex flex-col items-center text-center font-bold capitalize text-3xl mb-10 text-white ">
         <h1> ContactUs</h1>
         <div className="bg-orange-500 w-[100px] h-[2px] mt-3"></div>
